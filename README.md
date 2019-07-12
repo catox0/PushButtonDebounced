@@ -1,8 +1,5 @@
 # PushButtonDebounced
-Debounced readout of Pushbutton with Arduino
-
-/************************************************************************
-Class for debounced read-out of pushbuttons. 
+Class for debounced readout of Pushbutton with Arduino
 Create a separate instance for each pushbutton.
 
 The function sets the pinMode to INPUT_PULLUP and assumes that the 
@@ -18,7 +15,6 @@ Mode 2 returns millisecond duration of pushbutton Low state after transition to 
 The routine requires reasonably fast calling of check() to ensure a responsive behavior. If the delays in the main loop are too large, consider using interrupt-driven read-out.
 
 Thomas Schultz, July 2019
-***********************************************************************/
 
 Use by creating and then reading out an instance for each button, e.g.:
 
