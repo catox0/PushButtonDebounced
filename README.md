@@ -20,7 +20,7 @@ Use by creating and then reading out an instance for each button, e.g.:
 
 pushButton pbA(pushbuttonPinA, 0);    // A: act upon button release\
 pushButton pbB(pushbuttonPinB, 1);    // B: act upon button press\
-pushButton pbC(pushbuttonPinC, 2);    // C: act during button press\
+pushButton pbC(pushbuttonPinC, 2);    // C: act during button press
 
 void loop()\
 {  if (long duration = pbA.check()){   // Check pushbutton A\
