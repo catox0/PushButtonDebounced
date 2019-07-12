@@ -15,6 +15,8 @@ The routine requires reasonably fast calling of check() to ensure a responsive b
 
 Thomas Schultz, July 2019
 
+---------------------------
+
 Use by creating and then reading out an instance for each button, e.g.:
 
 pushButton pbA(pushbuttonPinA, 0);    // A: act upon button release\
