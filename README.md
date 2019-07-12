@@ -1,9 +1,8 @@
 # PushButtonDebounced
-Class for debounced readout of Pushbuttons with Arduino
+Class for debounced readout of Pushbuttons with Arduino. 
 Create a separate instance for each pushbutton.
 
-The function sets the pinMode to INPUT_PULLUP and assumes that the 
-pushbutton pulls the pin from High to Low. 
+The function sets the pinMode to INPUT_PULLUP and assumes that the pushbutton pulls the pin from High to Low. 
 
 Mode 0 returns millisecond duration of pushbutton High state after transition to Low (default).
        (Duration of button push)\
