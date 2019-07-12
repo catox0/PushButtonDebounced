@@ -17,7 +17,7 @@ Thomas Schultz, July 2019
 
 ---------------------------
 
-Use by creating and then reading out an instance for each button, e.g.:
+Use by creating and then continually reading out an instance for each button, e.g.:
 
 pushButton pbA(pushbuttonPinA);       &nbsp;&nbsp;// A: act upon button release\
 pushButton pbB(pushbuttonPinB, 1);    &nbsp;&nbsp;// B: act upon button press\
