@@ -19,18 +19,18 @@ Thomas Schultz, July 2019
 
 Use by creating and then reading out an instance for each button, e.g.:
 
-pushButton pbA(pushbuttonPinA, 0);    // A: act upon button release\
-pushButton pbB(pushbuttonPinB, 1);    // B: act upon button press\
-pushButton pbC(pushbuttonPinC, 2);    // C: act during button press
+pushButton pbA(pushbuttonPinA);       &nbsp;&nbsp;// A: act upon button release\
+pushButton pbB(pushbuttonPinB, 1);    &nbsp;&nbsp;// B: act upon button press\
+pushButton pbC(pushbuttonPinC, 2);    &nbsp;&nbsp;// C: act during button press
 
 void loop()\
-{  if (long duration = pbA.check()){   // Check pushbutton A\
+{  if (long duration = pbA.check()){   &nbsp;&nbsp;// Check pushbutton A\
     Serial.print("Button A was released after (ms): ");\
     Serial.println(duration);  }\
-  if (long duration = pbB.check()){   // Check pushbutton B\
+  if (long duration = pbB.check()){   &nbsp;&nbsp;// Check pushbutton B\
     Serial.print("Button B was pressed after (ms): ");\
     Serial.println(duration);  }\
-  if (long duration = pbC.check()){   // Check pushbutton C\
+  if (long duration = pbC.check()){   &nbsp;&nbsp;// Check pushbutton C\
     Serial.print("Button C was pressed for (ms): ");\
     Serial.println(duration);  }\
 }
