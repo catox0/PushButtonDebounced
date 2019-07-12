@@ -1,5 +1,5 @@
 # PushButtonDebounced
-Class for debounced readout of Pushbutton with Arduino
+Class for debounced readout of Pushbuttons with Arduino
 Create a separate instance for each pushbutton.
 
 The function sets the pinMode to INPUT_PULLUP and assumes that the 
